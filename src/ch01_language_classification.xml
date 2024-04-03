@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter
+            xmlns="http://docbook.org/ns/docbook"
+            xmlns:xl="http://www.w3.org/1999/xlink"
+            xmlns:xi="http://www.w3.org/2001/XInclude"
+            xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+            xmlns:ns4="http://www.w3.org/1999/xhtml"
+            xmlns:ns3="http://www.w3.org/2000/svg"
+            xmlns:ns="http://docbook.org/ns/docbook"
+
+            xml:id="ch01_language_classification">
+<title>计算机编程语言分类</title>
+
+<para>不懂的语言，擅长做的事情也不同，适用的领域和层次也不同：</para>
+<tip xml:id="tip.diff_lan_level"><title>相关旧帖</title>
+    <para><link xl:href="http://www.crifan.com/different_computer_programming_language_application_level/">【整理】计算机语言的不同应用层次</link></para>
+</tip>
+
+<para></para>
+<para>计算机语言分类：脚本语言，解释性语言，编译性语言等等</para>
+
+<sect1 xml:id="lan_scrpiting"><title>脚本语言</title>
+	<para>关于什么是脚本语言，简单说就是，需要你用什么编译器，将源代码，编译为对应的可执行程序，再去运行可执行程序；</para>
+	<para>而直接通过对应的脚本语言的解释器，去直接“运行”你的脚本语言的源代码，即文本文件，一堆的字符串，就可以实现运行程序的效果了。</para>
+	<para>即：</para>
+	<para>其他语言：源代码  -&gt;   编译成可执行程序   -&gt; 运行程序</para>
+	<para>脚本语言：源代码  -&gt; （解释器）直接&quot;运行&quot;你的源代码</para>
+	<para></para>
+	<para></para>
+	<para></para>
+</sect1>
+
+<para></para>
+<para>常见的计算机语言有：</para>
+<itemizedlist>
+	<listitem>Assembly</listitem>
+	<listitem>C</listitem>
+	<listitem>C++</listitem>
+	<listitem>C#</listitem>
+	<listitem>Java</listitem>
+	<listitem>JavaScript</listitem>
+	<listitem>Object-C</listitem>
+	<listitem>Perl</listitem>
+	<listitem>PHP</listitem>
+	<listitem>Python</listitem>
+	<listitem>GO</listitem>
+</itemizedlist>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+
+</chapter>

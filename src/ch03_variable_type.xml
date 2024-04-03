@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter
+        xmlns="http://docbook.org/ns/docbook"
+        xmlns:xl="http://www.w3.org/1999/xlink"
+        xmlns:xi="http://www.w3.org/2001/XInclude"
+        xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+        xmlns:ns4="http://www.w3.org/1999/xhtml"
+        xmlns:ns3="http://www.w3.org/2000/svg"
+        xmlns:ns="http://docbook.org/ns/docbook"
+		
+		xml:id="ch03_variable_type">
+<title>变量分类</title>
+
+<para>为何要去将变量分类</para>
+<para>常见的变量有哪些类型</para>
+<para>整型：byte,short int,int,long</para>
+<para>字符，字符串:char,string</para>
+<para>浮点数：float,double</para>
+<para>列表，等</para>
+<para>高级的，比如：字典dict，Map</para>
+
+</chapter>

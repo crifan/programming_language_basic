@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<bibliography
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:id="reference">
+
+<bibliomixed xml:id="ref.programming_lan_basic">
+  <bibliosource><link xl:href="http://www.crifan.com/computer_programming_language_basic_knowledge/">【教程】计算机编程语言之基础知识</link></bibliosource>
+  <author>Crifan Li</author>
+</bibliomixed>
+
+<bibliomixed xml:id="ref.computer_lan_level">
+  <bibliosource><link xl:href="http://www.crifan.com/different_computer_programming_language_application_level/">【整理】计算机语言的不同应用层次</link></bibliosource>
+  <author>Crifan Li</author>
+</bibliomixed>
+
+<bibliomixed xml:id="ref.function_name_para_relation">
+  <bibliosource><link xl:href="http://www.crifan.com/software_development_basic_knowledge_function_parameter/">【软件开发基础】调用函数中的变量名和被调用函数中的参数名之间的关系：没半毛钱关系</link></bibliosource>
+  <author>Crifan Li</author>
+</bibliomixed>
+
+</bibliography>

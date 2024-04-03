@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter
+        xmlns="http://docbook.org/ns/docbook"
+        xmlns:xl="http://www.w3.org/1999/xlink"
+        xmlns:xi="http://www.w3.org/2001/XInclude"
+        xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+        xmlns:ns4="http://www.w3.org/1999/xhtml"
+        xmlns:ns3="http://www.w3.org/2000/svg"
+        xmlns:ns="http://docbook.org/ns/docbook"
+		
+		xml:id="ch07_function">
+<title>函数</title>
+
+<para>为何要有函数</para>
+<para></para>
+<para>函数的参数</para>
+<para></para>
+<tip xml:id="tip.function_para"><title>相关旧帖</title>
+    <para><link xl:href="http://www.crifan.com/software_development_basic_knowledge_function_parameter/">【软件开发基础】调用函数中的变量名和被调用函数中的参数名之间的关系：没半毛钱关系</link></para>
+</tip>
+<para></para>
+<para>函数中的变量</para>
+<para></para>
+<para></para>
+<para>函数的返回值</para>
+<para></para>
+
+
+</chapter>

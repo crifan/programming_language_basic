@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE chapter [
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" "http://www.crifan.com/files/res/docbook/entity/crl.ent">
+%crl_ent;
+
+]>
+
+<chapter
+            xmlns="http://docbook.org/ns/docbook"
+            xmlns:xl="http://www.w3.org/1999/xlink"
+            xmlns:xi="http://www.w3.org/2001/XInclude"
+            xmlns:ns5="http://www.w3.org/1998/Math/MathML"
+            xmlns:ns4="http://www.w3.org/1999/xhtml"
+            xmlns:ns3="http://www.w3.org/2000/svg"
+            xmlns:ns="http://docbook.org/ns/docbook"
+			
+			xml:id="ch02_language_common">
+<title>计算机编程语言通用知识</title>
+
+<sect1 xml:id="code_for_read_mantain"><title>代码写出来是为了给别人看的</title>
+	<para>计算机语言通用知识 之 写代码是用来（被别人读和被别人）维护的</para>
+	<para>关于此观点，这里也有提到：</para>
+	<para><link xl:href="http://www.objc.io/issue-13/viper.html">Architecting iOS Apps with VIPER - Architecture - objc.io issue #13</link></para>
+	<para><quote>Good architecture is not what makes a product successful, but it does make a product maintainable and helps preserve the sanity of the people maintaining it!</quote></para>
+	<para></para>
+</sect1>
+
+<sect1 xml:id="lan_common_functions"><title>不同计算机语言都有常见通用的函数</title>
+	<para>不同的计算机语言，都有一些常见的函数。</para>
+	<sect2 xml:id="common_func_print"><title>通用函数：print</title>
+		<para>不同语言都有<emphasis>打印</emphasis>这个函数：</para>
+		<itemizedlist>
+			<listitem>C：<function>printf</function></listitem>
+			<listitem>C++：<function>cout&lt;&lt;</function></listitem>
+			<listitem>Python: <function>print</function></listitem>
+			<listitem>Java：<function>System.out.println</function></listitem>
+		</itemizedlist>
+		<para></para>
+	</sect2>
+</sect1>
+
+<sect1 xml:id="learn_lan_which_platform_first"><title>某某（比如C）语言初学者在Windows还是Linux环境下练习更有优势？</title>
+	<para>刚开始学习计算机语言，尤其是类似于C语言这种，很多人都会问同一个问题：</para>
+	<para>先在Windows下还是现在Linux下去学习，效果会更好，速度会更快？</para>
+	<para>对于此问题，之前遇到一个解释的比较清楚的答案：</para>
+	<para><link xl:href="http://blog.sina.com.cn/s/blog_89e9ccf60101bpfe.html">C语言初学者在Windows还是Linux环境下练习更有优势？（摘自知乎问答）</link></para>
+	<para>引用如下：</para>
+	<blockquote>
+		<para>从Windows入门，熟悉到一定程度之后推荐根据情况转移到Linux下继续学习。</para>
+		<para><emphasis>重点是“专注+效率”。</emphasis></para>
+		<para>忽视初学者的境况和人的本性去考虑问题都是不恰当的。</para>
+		<para>并不是否定Linux，而是它对于初学者的入门门槛太高了。</para>
+		<para>Window进入难度小，非常有助于不断积累幸福感。</para>
+		<para>各种IDE完备，基本可以按照书上按图索骥，能让你专注而有效率的在学C语言。</para>
+		<para>windows下完善的IDE调试环境有利于减少入门难度，这对于初学者是大益。</para>
+		<para>难以想象一个初学者在Linux下面遇到指针错误会不会看着segementfault直接崩溃掉，然后选择掩卷长泣，深藏功与名。。。</para>
+		<para>而选择Linux入门会让你学C语言变成：捣鼓系统，学习gcc/GDB的使用，学习vim/emacs使用，make文件的编写等。</para>
+		<para>请问：对于初学者的你，你还能专注的学C吗？</para>
+		<para>当你在windows下学习到一定程度之后，你会发现windows下学习的缺陷：IDE过于完备导致对于细节缺乏了解；windows这个”化妆过度“的系统导致你从中基本学不到东西。</para>
+		<para>你可能不时需要去考虑IDE到底变了什么戏法？</para>
+		<para>windows为甚么和你学的语言感觉一点关系都没有？</para>
+		<para>这个时候你可以转到Linux下继续学习。</para>
+		<para>通过对细节的把握以及在一个对程序员友好的系统的帮助下，可以让你的问题得到消解，继续专注而有效率的学习。</para>
+		<para>另外，如果学的是C语言，不是OperatingSystem，Linux和Windows下是没有区别的。</para>
+		<para>《C Programming Language》里面除了专讲Unix的章节，其余的程序在Windows上也可以运行。</para>
+		<para>C语言是有标准的，只要选择支持C89或C99标准的编译器就行了，这点两个平台也没区别。</para>
+		<para>但是要知道C语言当初发明就是为了重写Unix的，C很多风格上和设计思维上同Unix更接近些。尤其是C标准的内存，文件等接口。</para>
+		<para></para>
+		<para></para>
+	</blockquote>
+	<para>上述的回答，对于其他语言，比如C++，Java，Python等等，也是实用的：</para>
+	<para>前期可以在Windows中，尤其是Windows中的各种IDE中去学习某语言的基本的语法和调试运行，</para>
+	<para>待对语言有了一定的熟悉，想要深入学习内部机制和原理时，再去换到Linux的环境中去学习。</para>
+	<para>由此可以由浅入深，循序渐进的去学习某种语言。</para>
+</sect1>
+
+</chapter>
